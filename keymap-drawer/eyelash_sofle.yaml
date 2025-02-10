@@ -71,7 +71,7 @@ layers:
   - F3
   - F4
   - F5
-  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F6
   - F7
   - F8
@@ -84,7 +84,7 @@ layers:
   - $$mdi:volume-high$$
   - PgUp
   - HOME
-  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - HOME
   - PgUp
   - $$mdi:mouse-left-click-outline$$
@@ -97,11 +97,11 @@ layers:
   - $$mdi:arrow-right-bold$$
   - PgDn
   - END
-  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - END
   - PgDn
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -110,11 +110,11 @@ layers:
   - $$mdi:skip-next$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - F11
   - F12
   - Ins
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: Ctl+0, s: Ctl+)}
@@ -123,7 +123,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - SNAPSHOT
+  - $$mdi:mouse-left-click-outline$$
   - {t: '-', s: _}
   - {t: '=', s: +}
   - $$mdi:mouse-left-click-outline$$
